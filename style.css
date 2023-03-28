@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+#navbar{
+    position: sticky;
+    top: 0;
+    left:0;
+    z-index: 100;
+    padding: .5rem 5rem;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, .5);
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-weight: 600;
+    font-size: 25px;
+    
+}
+#navbarSupportedContent a{
+    color:#fff;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #fff;
+
+}
+#navbarSupportedContent .nav-item .nav-link{
+    transition: 0.5s;
+}
+
+section{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#Home{
+    background:linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.7)), url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+#Home p{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 800;
+    border: 5px solid #fff;
+    text-align: center;
+}
+
+#offer{
+    background: grey
+}
+
+
+#offer li{
+    font-size: 25px;
+    font-weight: 300;
+    align-items: center;
+}
+#offer p{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top:10px;
+    
+    
+}
+
+#product{
+    background-color: #e5e5e5;
+}
+#product h1 span {
+    background-color: black;
+    color: #fff;
+    letter-spacing: 1px;
+
+}
+
+
+#product img{
+         width: 300px;
+         height: 300px;
+}
+ .card{
+     width: 350px;
+     height: 400px;
+     background:#fff !important;
+     overflow: hidden ;
+     justify-content: center;
+     align-items: center;
+     margin: 20px 60px;
+     box-shadow: 5px 5px 20px black; 
+}
+.card:hover{
+    transition: .05s;
+    
+}
+
+
+#contact img{
+    height: 100%;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+ #contact input{
+    margin: 10px 0px;
+}
+
+#contact textarea{
+    margin: 10px 0px;
+}
+#contact button{
+    background-color: black;
+    color: #fff;
+}
+ #ro{
+    background: grey;
+   
+}
+#about{
+    background-color:black;
+}
+#about h1{
+    color: #fff;
+    margin-bottom: 30px;
+    
+}
+#about  p{
+    font-size: 20px;
+    font-weight: 200;
+    color: #fff;
+}
+#about p svg{
+    margin-right: 15px;
+}
+#about .container{
+    min-height: 20px;
+}
+
+footer{
+    background:#e5e5e5;
+    text-align: center;
+    color: red;
+}
+
+
